@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069923170210",
+    "project_id": "integrated-group-project",
+    "storage_bucket": "integrated-group-project.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069923170210:android:76431a83962b62c1f124fb",
+        "android_client_info": {
+          "package_name": "com.example.brightonshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtwAG0jazaywABZ1CKKp0YXcNHmv4Kb6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

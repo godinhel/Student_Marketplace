@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Light Theme -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/dark_gray</item>
+        <item name="colorPrimaryVariant">@color/darker_gray</item>
+        <item name="colorAccent">@color/blue_accent</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/white</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+
+        <!-- Button Styles -->
+        <item name="android:buttonStyle">@style/Widget.MyApp.Button</item>
+
+        <!-- Card Views -->
+        <item name="cardViewStyle">@style/Widget.MyApp.CardView</item>
+
+        <!-- RecyclerView Item Style -->
+        <item name="android:listDivider">@null</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/darker_gray</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/dark_gray</item>
+
+    </style>
+
+</resources>

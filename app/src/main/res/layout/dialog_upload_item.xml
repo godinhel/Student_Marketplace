@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePreview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#DDD"
+                android:scaleType="centerCrop"
+                android:contentDescription="Item Image" />
+
+            <Button
+                android:id="@+id/buttonChooseImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Image"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title" />
+
+            <EditText
+                android:id="@+id/editDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description" />
+
+            <EditText
+                android:id="@+id/editPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price (£)"
+                android:inputType="numberDecimal" />
+
+            <Button
+                android:id="@+id/buttonUpload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Item"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
